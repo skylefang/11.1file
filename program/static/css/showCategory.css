@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.panel {
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  min-height: 200px; }
+  .panel .panelHeader {
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 4px 4px 0 0; }
+  .panel .panelContent {
+    width: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.5); }
+    .panel .panelContent table {
+      width: 80%;
+      height: auto;
+      margin: 15px auto;
+      border-collapse: collapse;
+      text-align: center; }
+      .panel .panelContent table td, .panel .panelContent table th {
+        border: 1px solid #cccccc;
+        padding: 6px 16px; }
+      .panel .panelContent table tr:nth-of-type(2n) {
+        background: #FFFFFF; }
+      .panel .panelContent table tr:nth-of-type(2n+1) {
+        background: #f1f1f1; }
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  background: #dfdfdf;
+  line-height: 1.5;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000000;
+  margin-right: 10px; }
+
+.btnAdd {
+  background: #03a9f4;
+  color: #FFFFFF; }
+
+/*
+.btnDel{
+  background: #ff1c06;
+  color: #FFFFFF;
+}*/
+
+/*# sourceMappingURL=showCategory.css.map */
